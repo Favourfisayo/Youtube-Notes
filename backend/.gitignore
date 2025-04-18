@@ -1,0 +1,54 @@
+# === Node.js ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+package-lock.json
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.spec
+.env
+.venv/
+venv/
+
+# === Tailwind / Build Artifacts ===
+*.css.map
+*.js.map
+*.min.css
+*.min.js
+public/build/
+public/dist/
+build/
+dist/
+
+# === Chrome Extension Specific ===
+# Ignore generated extension package if any
+*.crx
+*.pem
+*.zip
+
+# === Logs ===
+*.log
+
+# === OS / Misc ===
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.swp
+*~
+
+# === IDEs & Editors ===
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
