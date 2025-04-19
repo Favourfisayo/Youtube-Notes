@@ -12,7 +12,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
       return;
     }
 
-    fetch(`https://youtube-notes-backend.onrender.com/transcript?videoId=${videoId}`)
+    fetch(`http://localhost:3000/transcript?videoId=${videoId}`)
       .then(res => res.json())
       .then(data => {
         console.log("Content: fetched data", data);
